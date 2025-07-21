@@ -1,0 +1,328 @@
+.bg_cont{
+  background-image: url("https://technext.github.io/novena/images/bg/slider-bg-1.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg_cont p{
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #6F8BA4;
+  font-weight: 400;
+}
+.bg_cont h1{
+  font-weight: 700;
+  font-size: 60px;
+  color: #223a66;
+}
+.bg_cont span{
+font-size: 17px;
+margin-top: 10px;
+  
+  color: #6F8BA4;
+  font-weight: 400;
+}
+.cont{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+button{
+  background-color: #e12454;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 12px 32px;
+  border-radius: 20px;
+  margin-top: 20px;
+  width: fit-content;
+  border: 0;
+}
+.box,.care,.client{
+  height:fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sm{
+  display: ruby;
+  height: fit-content;
+  width: 100%;
+}
+.sm_box{
+  height: fit-content;
+  width: 260px;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+  margin: 20px;
+}
+.sm_box i{
+  font-size: 55px;
+  color: #223a66;
+  margin: 10px 0px 30px 0px ;
+}
+.sm_box span{
+font-size: 16px;
+color: #6F8BA4;
+font-weight: 400;
+}
+.sm_box h4{
+  color: #223a66;
+margin-bottom: 16px;
+font-size: 23px;
+}
+.sm_box p{
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #6F8BA4;
+}
+.sm_box button ,form button{
+  background-color: #223a66;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.cr_ct{
+  height: fit-content;
+  width: 100%;
+  display: ruby;
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+}
+.cr_ct img{
+height: 500px;
+width: 350px;
+background-size: cover;
+border-radius: 5px;
+box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+margin-right: 20px;
+display: flex;
+flex-direction: column;
+}
+.para h2{
+  color: #223a66;
+  font-size: 44px;
+  font-weight: 700;
+}
+.para p{
+  font-size: 16px;
+  color: #6F8BA4;
+  font-weight: 400;
+  margin: 20px 0px 20px 0px ;
+}
+.img img{
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+.client .container{
+  height: fit-content;
+  margin-top: 50px;
+  width: 80%;
+  background-image: url('https://technext.github.io/novena/images/bg/bg-4.jpg');
+  background-size: cover;
+}
+.blur{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(34, 58, 102, 0.95);
+display: flex;
+justify-content: space-evenly;
+}
+.blur span{
+  font-size: 70px;
+  color: white;
+}
+.context{
+  padding: 30px;
+}
+.context p{
+  
+  font-size: 16px;
+  color: #b2c3d3;
+  font-weight: 400;
+}
+.award{
+  height: fit-content;
+  width: 100%;
+  background-color: #f4f9fc;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  
+}
+.award h1{
+  margin: 50px 0px 50px 0px ;
+  text-align: center;
+}
+.testimonal{
+  height: fit-content;
+  width: 100%;
+  display: ruby;
+  text-align: center;
+}
+.test_box{
+  padding: 50px 30px 50px 30px  ;
+  text-align: start;
+  height: fit-content;
+  background-color: white;
+  border-radius: 5px ;
+  margin: 10px;
+  width: 280px;
+}
+.icon{
+  display: flex;
+  justify-content: space-around;
+}
+.icon i{
+  color: #e12454;
+  font-size: 50px;
+}
+.icon h4{
+  font-size: 25px;
+
+}
+.test_box p{
+  margin-top: 10px;
+  color: #6F8BA4;
+  font-size: 16px;
+  font-weight: 400;
+}
+.conttt{
+  height: fit-content;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+}
+.appointment img{
+  height: 650px;
+  width: 500px;
+  background-size: cover;
+  
+}
+.ap_cont{
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+.text h1{
+  color: #223a66;
+  font-size: 45px;
+  font-weight: 700;
+}
+.text p{
+  color: #6F8BA4;
+  font-size: 16px;
+}
+.appointment{
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  margin-left: 60px;
+  
+}
+input,select{
+  background-color: #f4f9fc;
+  height: 55px;
+  border-color: rgba(0, 0, 0, 0.05);
+  color: #495057;
+margin: 10px 20px 10px 0px;
+width: 80%;
+
+padding: 0px 0px 0px 5px;
+}
+textarea{
+  background-color: #f4f9fc;
+  height: 130px;
+  border-color: rgba(0, 0, 0, 0.05);
+  color: #495057;
+margin: 10px 20px 10px 0px;
+width: 80%;
+padding: 0px 0px 0px 5px;
+}
+
+
+form{
+  display: ruby;
+}
+@media screen and (max-width:1000px) {
+  .sm_box{
+    width: 90%;
+  }
+  .showw{
+  display: flex;
+}
+  .appointment select{
+    width: 100%;
+  }
+}
+@media screen and (max-width:1000px) {
+  .ap_cont{
+    flex-direction: column;
+  }
+  .text{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .appointment img{
+    width: 100%;
+  }
+select, input,textarea{
+  width: 100%;
+}
+}
+@media screen and (max-width:650px) {
+.blur{
+  flex-direction: column;
+  text-align: center;
+}
+.context{
+  text-align: center;
+}
+.context span{
+display: block;
+}
+}
+@media screen and (max-width:480px) {
+  .sm_box{
+    margin: 20px 0px 0px 0px ;
+width: 80%;
+  }
+  .sm{
+    text-align: center;
+  }
+  .bg_cont{
+        height: fit-content;
+    }
+    .test_box{
+      width: fit-content;
+    }
+    .img img{
+      width:100%;
+      margin-right: 0;
+    }
+.cr_ct img{
+  width: 100%;
+  margin-right: 0px;
+}
+}

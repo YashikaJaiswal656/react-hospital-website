@@ -1,0 +1,27 @@
+.doctor .servive_box{
+    padding: 0;
+    box-shadow: 0;
+    width: 250px;
+
+}
+.doctor .servive_box img{
+    height: 250px;
+    width: 250px;
+}
+.detail img{
+    height: 400px;
+}
+.detail{
+    margin-bottom: 50px;
+}
+.ap_form select{
+    width: 495px;
+}
+.detail .contt .cr_ct {
+    display: flex;
+}
+@media screen and (max-width:900px) {
+.detail .contt .cr_ct {
+    flex-direction: column;
+}
+}
